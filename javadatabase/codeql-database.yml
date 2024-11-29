@@ -1,0 +1,39 @@
+---
+sourceLocationPrefix: H:\Desktop\Codeql
+baselineLinesOfCode: 9
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+inProgress:
+  primaryLanguage: java
+  installedExtractors:
+    cpp:
+     - H:/Desktop/codeql-win64/codeql/cpp
+    csharp:
+     - H:/Desktop/codeql-win64/codeql/csharp
+    csv:
+     - H:/Desktop/codeql-win64/codeql/csv
+    go:
+     - H:/Desktop/codeql-win64/codeql/go
+    html:
+     - H:/Desktop/codeql-win64/codeql/html
+    java:
+     - H:/Desktop/codeql-win64/codeql/java
+    javascript:
+     - H:/Desktop/codeql-win64/codeql/javascript
+    properties:
+     - H:/Desktop/codeql-win64/codeql/properties
+    python:
+     - H:/Desktop/codeql-win64/codeql/python
+    ruby:
+     - H:/Desktop/codeql-win64/codeql/ruby
+    swift:
+     - H:/Desktop/codeql-win64/codeql/swift
+    xml:
+     - H:/Desktop/codeql-win64/codeql/xml
+    yaml:
+     - H:/Desktop/codeql-win64/codeql/yaml
+creationMetadata:
+  cliVersion: 2.19.3
+  creationTime: 2024-11-29T12:41:10.688637100Z
+finalised: false

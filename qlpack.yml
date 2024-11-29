@@ -1,0 +1,5 @@
+name: my-qlpack
+version: 1.0.0
+dependencies:
+  name: codeql/python
+  version: "2.0.0"
