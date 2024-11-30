@@ -1,0 +1,11 @@
+[2024-11-30 11:50:00] This is codeql query run codeql-custom-queries-python\example3.ql --database=databasePy
+[2024-11-30 11:50:00] Log file was started late.
+[2024-11-30 11:50:00] Calling plumbing command: codeql resolve ram --dataset=H:\Desktop\Codeql\databasePy\db-python --format=json
+[2024-11-30 11:50:00] [PROGRESS] resolve ram> Stringpool size measured as 2179482
+[2024-11-30 11:50:00] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1430M"
+                      ]
+[2024-11-30 11:50:00] Spawning plumbing command: execute queries -J-Xmx1430M --verbosity=progress --logdir=H:\Desktop\Codeql\databasePy\log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=H:\Desktop\Codeql\qlconfig.yml -- H:\Desktop\Codeql\databasePy\db-python path:H:\Desktop\Codeql\codeql-custom-queries-python\example3.ql
+[2024-11-30 11:50:32] Plumbing command codeql execute queries terminated with status 0.
+[2024-11-30 11:50:32] Exiting with code 0
