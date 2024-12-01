@@ -1,0 +1,60 @@
+[2024-11-30 12:21:24] This is codeql execute queries -J-Xmx3264M --off-heap-ram=4061 --verbosity=progress --logdir=C:\Users\Saaru\Desktop\CodeQl\CodeQl\databasePy\log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml -- C:\Users\Saaru\Desktop\CodeQl\CodeQl\databasePy\db-python path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql
+[2024-11-30 12:21:24] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml --format=json -- path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql
+[2024-11-30 12:21:24] [PROGRESS] resolve queries> Recording pack reference getting-started/codeql-extra-queries-python at C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python.
+[2024-11-30 12:21:24] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\Saaru\\Desktop\\CodeQl\\CodeQl\\codeql-custom-queries-python\\example3.ql"
+                      ]
+[2024-11-30 12:21:24] Refusing fancy output: The terminal is not an xterm: 
+[2024-11-30 12:21:24] Creating executor with 1 threads.
+[2024-11-30 12:21:24] Calling plumbing command: codeql resolve extensions --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml --include-extension-row-locations path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql
+[2024-11-30 12:21:24] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml --allow-library-packs --format startingpacks -- path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql
+[2024-11-30 12:21:24] [PROGRESS] resolve queries> Recording pack reference getting-started/codeql-extra-queries-python at C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python.
+[2024-11-30 12:21:24] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\Saaru\\Desktop\\CodeQl\\CodeQl\\codeql-custom-queries-python"
+                      ]
+[2024-11-30 12:21:24] Calling plumbing command: codeql resolve extensions-by-pack --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml --include-extension-row-locations -- C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] getting-started/codeql-extra-queries-python: not 1.0.0 {root: getting-started/codeql-extra-queries-python@1.0.0}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [DERIVATION] getting-started/codeql-extra-queries-python: 1.0.0 {getting-started/codeql-extra-queries-python: not 1.0.0 {root: getting-started/codeql-extra-queries-python@1.0.0}}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] getting-started/codeql-extra-queries-python: * [*], codeql/python-all: not >=2.1.2 <3.0.0-0 {dependency: getting-started/codeql-extra-queries-python@* [*] requires codeql/python-all@^2.1.2}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [DECISION 1] getting-started/codeql-extra-queries-python: 1.0.0
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/python-all: >=2.1.2 <3.0.0-0 {getting-started/codeql-extra-queries-python: * [*], codeql/python-all: not >=2.1.2 <3.0.0-0 {dependency: getting-started/codeql-extra-queries-python@* [*] requires codeql/python-all@^2.1.2}}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*] {pack not found: codeql/python-all}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [CONFLICT] codeql/python-all: * [*] {pack not found: codeql/python-all}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack>   [CONSTRAINT] codeql/python-all: >=2.1.2 <3.0.0-0
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack>   [CONSTRAINT] getting-started/codeql-extra-queries-python: 1.0.0
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack>   [SATISFIER] derivation: codeql/python-all: >=2.1.2 <3.0.0-0
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack>   [ALMOST_SATISFIER] <none>
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] getting-started/codeql-extra-queries-python: * [*] {conflict}
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack> [FAILURE]
+[2024-11-30 12:21:24] [SPAMMY] resolve extensions-by-pack>   Because 'getting-started/codeql-extra-queries-python' depends on 'codeql/python-all@^2.1.2', but pack 'codeql/python-all' was not found, version solving failed.
+[2024-11-30 12:21:24] [ERROR] resolve extensions-by-pack> ERROR: Pack 'codeql/python-all@2.1.2' was not found in the pack download cache. Run 'codeql pack install' to download the dependencies. (C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\codeql-pack.yml:1,1-1)
+[2024-11-30 12:21:24] [ERROR] resolve extensions-by-pack> ERROR: No valid pack solution found:
+                              Because 'getting-started/codeql-extra-queries-python' depends on 'codeql/python-all@^2.1.2', but pack 'codeql/python-all' was not found, version solving failed.
+                               (C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\codeql-pack.yml:1,1-1)
+[2024-11-30 12:21:24] Sequence stamp origin is -6110855053343874817
+[2024-11-30 12:21:24] Pausing evaluation to close the cache at sequence stamp o+0
+[2024-11-30 12:21:24] The disk cache is freshly trimmed; leave it be.
+[2024-11-30 12:21:24] Unpausing evaluation
+[2024-11-30 12:21:24] This NaiveBuddyAllocator requested 0 eviction rounds.
+[2024-11-30 12:21:24] Exception caught at top level: A 'codeql resolve extensions-by-pack' operation failed with error code 2
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:75)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:169)
+                      com.semmle.cli2.resolve.ResolveExtensionsCommand.executeJSON(ResolveExtensionsCommand.java:62)
+                      com.semmle.cli2.resolve.ResolveExtensionsCommand.executeJSON(ResolveExtensionsCommand.java:18)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSONWithExistingMessages(SimpleJsonSubcommand.java:121)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:443)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSON(SimpleJsonSubcommand.java:110)
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:61)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:169)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.resolveExtensions(ExecuteQueriesCommand.java:845)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:475)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:893)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:443)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:891)
+                      com.semmle.cli2.picocli.SubcommandCommon.toplevelMain(SubcommandCommon.java:775)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:756)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:238)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:259)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:115)

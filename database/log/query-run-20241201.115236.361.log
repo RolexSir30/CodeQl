@@ -1,0 +1,13 @@
+[2024-12-01 11:52:36] This is codeql query run C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql --database=database
+[2024-12-01 11:52:36] Log file was started late.
+[2024-12-01 11:52:36] Calling plumbing command: codeql resolve ram --dataset=C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\db-python --format=json
+[2024-12-01 11:52:36] [PROGRESS] resolve ram> Stringpool size measured as 2154906
+[2024-12-01 11:52:36] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx3264M",
+                        "--off-heap-ram=4062"
+                      ]
+[2024-12-01 11:52:36] Spawning plumbing command: execute queries -J-Xmx3264M --off-heap-ram=4062 --verbosity=progress --logdir=C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml -- C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\db-python path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\example3.ql
+[2024-12-01 11:52:38] [ERROR] Spawned process exited abnormally (code 2; tried to run: [C:\Users\Saaru\Downloads\codeql-win64\codeql\tools\win64\java\bin\java.exe, -Xmx3264M, "-Djava.library.path=C:\Users\Saaru\Downloads\codeql-win64\codeql\tools\win64\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\Saaru\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Saaru\AppData\Local\Programs\Python\Python312\;C:\Users\Saaru\AppData\Local\Microsoft\WindowsApps;C:\Users\Saaru\Downloads\apache-maven-4.0.0-alpha-8-bin\apache-maven-4.0.0-alpha-8\bin;C:\Users\Saaru\Downloads\codeql-win64\codeql;;.", -cp, C:\Users\Saaru\Downloads\codeql-win64\codeql\tools\codeql.jar, com.semmle.cli2.CodeQL, env_argv, execute, queries, -J-Xmx3264M, _, _, _, _, _, _, _, --, _, _])
+[2024-12-01 11:52:38] Plumbing command codeql execute queries terminated with status 2.
+[2024-12-01 11:52:38] Exiting with code 2

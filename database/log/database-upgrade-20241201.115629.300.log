@@ -1,0 +1,18 @@
+[2024-12-01 11:56:29] This is codeql database upgrade database --search-path=C
+[2024-12-01 11:56:29] Log file was started late.
+[2024-12-01 11:56:29] Running plumbing command: codeql dataset upgrade --evaluator-log-level=5 --search-path=C:\Users\Saaru\Desktop\CodeQl\CodeQl\C -- C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\db-python
+[2024-12-01 11:56:29] Calling plumbing command: codeql resolve upgrades --search-path=C:\Users\Saaru\Desktop\CodeQl\CodeQl\C --dbscheme=C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\db-python\semmlecode.python.dbscheme --format=json
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Searching for upgrades that apply to 1795e2de7a79257973aca07dca3afe01ecb71421.
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\Saaru\Downloads\codeql-win64\codeql\.codeqlmanifest.json
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\Saaru\Downloads\codeql-win64\
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Not scanning from C:\Users\Saaru\Downloads\codeql-win64\codeql which is already done.
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Will look for upgrades in C:\Users\Saaru\Downloads\codeql-win64\codeql\legacy-upgrades\upgrades
+[2024-12-01 11:56:29] [DETAILS] resolve upgrades> Found upgrade run ending at 1795e2de7a79257973aca07dca3afe01ecb71421.
+[2024-12-01 11:56:29] Plumbing command codeql resolve upgrades completed:
+                      {
+                        "scripts" : [ ],
+                        "finalDbscheme" : "C:\\Users\\Saaru\\Desktop\\CodeQl\\CodeQl\\database\\db-python\\semmlecode.python.dbscheme"
+                      }
+[2024-12-01 11:56:29] [PROGRESS] dataset upgrade> C:\Users\Saaru\Desktop\CodeQl\CodeQl\database\db-python is up to date.
+[2024-12-01 11:56:29] Plumbing command codeql dataset upgrade completed.
+[2024-12-01 11:56:29] Exiting with code 0

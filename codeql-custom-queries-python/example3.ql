@@ -1,4 +1,5 @@
 /**
+ * @id property
  * @name Command Injection Detection
  * @description Detects potential command injection vulnerabilities.
  * @kind problem

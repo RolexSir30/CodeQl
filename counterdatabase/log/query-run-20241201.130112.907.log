@@ -1,0 +1,12 @@
+[2024-12-01 13:01:12] This is codeql query run codeql-custom-queries-python\multipleImport.ql --database=counterdatabase
+[2024-12-01 13:01:12] Log file was started late.
+[2024-12-01 13:01:12] Calling plumbing command: codeql resolve ram --dataset=C:\Users\Saaru\Desktop\CodeQl\CodeQl\counterdatabase\db-python --format=json
+[2024-12-01 13:01:12] [PROGRESS] resolve ram> Stringpool size measured as 2179482
+[2024-12-01 13:01:12] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx3264M",
+                        "--off-heap-ram=4061"
+                      ]
+[2024-12-01 13:01:12] Spawning plumbing command: execute queries -J-Xmx3264M --off-heap-ram=4061 --verbosity=progress --logdir=C:\Users\Saaru\Desktop\CodeQl\CodeQl\counterdatabase\log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=C:\Users\Saaru\Desktop\CodeQl\CodeQl\qlconfig.yml -- C:\Users\Saaru\Desktop\CodeQl\CodeQl\counterdatabase\db-python path:C:\Users\Saaru\Desktop\CodeQl\CodeQl\codeql-custom-queries-python\multipleImport.ql
+[2024-12-01 13:01:21] Plumbing command codeql execute queries terminated with status 0.
+[2024-12-01 13:01:21] Exiting with code 0
